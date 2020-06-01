@@ -72,3 +72,78 @@ body {
 .dropdown:hover .dropbtn {
   background-color: #888;
 }
+
+.article-1-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 20px;
+  grid-template-rows: 100%;
+}
+
+.article-header {
+  font-size: 3rem;
+}
+
+.article-2-text {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 25% 25%;
+  grid-template-rows: 50%;
+  text-align: center;
+}
+
+.prog-bar {
+  padding-top: 6rem;
+  width: 300px;
+}
+
+.bar {
+  width: 100%;
+  background-color: #eee;
+  padding: 2px;
+  border-radius: 2px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.bar-animation-1 {
+  height: 15px;
+  display: block;
+  background-color: #d35266;
+  width: 80%;
+  border-radius: 2px;
+  -webkit-transition: width 0.8s ease;
+  transition: width 0.8s ease;
+  animation: animate 1 4s;
+}
+
+.bar-animation-2 {
+  height: 15px;
+  display: block;
+  background-color: #d35266;
+  width: 60%;
+  border-radius: 2px;
+  -webkit-transition: width 0.8s ease;
+  transition: width 0.8s ease;
+  animation: animate 1 4s;
+}
+
+.bar-animation-3 {
+  height: 15px;
+  display: block;
+  background-color: #d35266;
+  width: 40%;
+  border-radius: 2px;
+  -webkit-transition: width 0.8s ease;
+  transition: width 0.8s ease;
+  animation: animate 1 4s;
+}
+
+@keyframes animate {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
