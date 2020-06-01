@@ -4,12 +4,22 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgb(243, 241, 241);
+}
+
 .main-header {
   background-color: #d35266;
 }
 
+.casual {
+  color: white;
+}
+
 .header-link {
-  
+  border: 1px solid #888;
+  border-radius: 16px;
+  background-color: #888;
 }
 
 .carousel-text {
