@@ -35,60 +35,154 @@
             </button>
               <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item pr-4">
-                  <a class="nav-link header-link text-white" href="#">Home</a>
+                <li class="nav-item header-link-1 pr-4">
+                  <a class="nav-link current-link" href="#"> <i class="fas fa-home"></i>HOME</a>
                 </li>
                 <li class="nav-item pr-4">
-                  <a class="nav-link header-link text-white" href="#">Product</a>
+                  <a class="nav-link header-link-2" href="#"><i class="fas fa-table"></i> COLLECTIONS</a>
                 </li>
                 <li class="nav-item pr-4">
-                  <a class="nav-link header-link text-white" href="#">Contact</a>
+                  <a class="nav-link header-link-2" href="#"> <i class="fas fa-shopping-cart"></i>PURCHASE LIST</a>
                 </li>
                 <li class="nav-item pr-4">
-                  <a class="nav-link header-link text-white" href="#">Search <i class="fas fa-search-location"></i></a>
+                  <a class="nav-link header-link" href="#">POST AN AD<i class="fas fa-search-location"></i></a>
                 </li>
               </ul>
-          </header>
-        <div class="carousel-text"> <h1>
-          <span>Welcome to <strong>LOREM IPSUM</strong></span>
-        </h1>
-        <br />
-        <h3>
-          <span
-            >Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit.</span
+            </header>
+          <div class="wrapper"> 
+          <div class="search-area  d-md-flex flex-column align-items-center justify-content-center">
+            <h1 class="search-area-header font-weight-bold text-white">Casual Feet</h1>
+            <p class="search-area-text text-white">Your Online Active Sports Shoes Shop</p>
+           <form
+          action="search.html"
+          class="d-flex flex-column flex-md-row md-align-items-center md-justify-content-center mt-5 search-form"
+        >
+          <div class="form-group mr-1 mb-4 mb-md-0">
+            <select
+              class="form-control input rounded-0 border-0"
+              id="allModels"
+            >
+              <option selected disabled>All Brands</option>
+              <option>Nike</option>
+              <option>Adidas</option>
+              <option>Jordan</option>
+              <option>New Balance</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group mr-1 mb-4 mb-md-0">
+            <input
+              type="text"
+              class="form-control input rounded-0 border-0"
+              id="brand"
+              placeholder="What do you search for?"
+            />
+          </div>
+          <div class="form-group mr-1 mb-md-0">
+            <input
+              type="text"
+              class="form-control input rounded-0 border-0"
+              id="size"
+              placeholder="Specify shoe size"
+            />
+          </div>
+
+          <button
+            type="submit"
+            class="btn btn-dark input rounded-0 border-0 btn-search align-self-stretch align-self-md-center mt-2 mt-md-0"
           >
-        </h3>
-        <br />
-        <div class="">
-          <div class="dropdown">
-            <button class="dropbtn">Search</button>
-            <div class="dropdown-content">
-              <a href="index.html">Home</a>
-              <a href="product.html">Product</a>
-              <a href="contact.html">Contact</a>
-            </div>
+            Submit
+          </button>
+           </form>
           </div>
-          <div class="dropdown">
-            <button class="dropbtn">Contact</button>
-            <div class="dropdown-content">
-              <a href="index.html">Home</a>
-              <a href="product.html">Product</a>
-              <a href="search.html">Search</a>
-            </div>
-          </div>
-      </div>
-        </div>
+          <div class="container">
+            <section class="pt-2 mt-md-5 d-md-block hot-ads-section text-dark position-relative">
+              <div class="container-fluid px-0 mx-0">
+              
+                <div class="row mb-2 px-0">
+                  <h4
+                    class="hot-ads-title font-weight-bold text-muted ml-4"
+                  >
+                    HOT ADS
+                  </h4>
+                </div>  
+        <div class="">  
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active p-0 mt-5">
-              <img class="img-fluid d-block w-100" src="./images/outdoor-sports.webp" alt="First slide">
+              <img class="img-fluid col-md-7 d-block w-50 h-50" src="./images/outdoor-sports.webp" alt="First slide">
+              <div class="col-md-5 align-self-center">
+                <h5 class="font-weight-bold">
+                  Flat Base Casual
+                </h5>
+                <p class="mb-1 small">
+                  This Unisex casual flat base comes in black, white and red. Shoe sizes range from 5 - 10. Stock is available and all online card purchases are subject to a 20% discount.
+                </p>
+                <div class="d-flex">
+                  <p class="mr-2">
+                    By: <span class="text-muted">In-house Brand </span>
+                  </p>
+                  <p>Location: Johannesburg</p>
+                </div>
+                <button type="button"
+                  class="btn-custom btn-price text-white mt-1 ml-auto"
+                >
+                  R699.00
+                </button>
+                <button type="button" class="btn-custom btn-price text-white mt-1">
+                  <i class="fas fa-shopping-cart"></i> Add to cart
+                </button>
+              </div>
             </div>
             <div class="carousel-item mt-5 p-0">
-              <img class="img-fluid d-block w-100" src="./images/air-jordan.webp" alt="Second slide">
+              <img class="img-fluid col-md-7 d-block w-50 h-50" src="./images/air-jordan.webp" alt="Second slide">
+              <div class="col-md-5 align-self-center">
+                <h5 class="font-weight-bold">
+                  Flat Base Casual
+                </h5>
+                <p class="mb-1 small">
+                  This Unisex casual flat base comes in black, white and red. Shoe sizes range from 5 - 10. Stock is available and all online card purchases are subject to a 20% discount.
+                </p>
+                <div class="d-flex">
+                  <p class="mr-2">
+                    By: <span class="text-muted">In-house Brand </span>
+                  </p>
+                  <p>Location: Johannesburg</p>
+                </div>
+                <button type="button"
+                  class="btn-custom btn-price text-white mt-1 ml-auto"
+                >
+                  R699.00
+                </button>
+                <button type="button" class="btn-custom btn-price text-white mt-1">
+                  <i class="fas fa-shopping-cart"></i> Add to cart
+                </button>
+              </div>
             </div>
             <div class="carousel-item p-0">
-              <img class="img-fluid d-block w-100" src="./images/ladies-sneakers-1.webp" alt="Third slide">
+              <img class="img-fluid col-md-7 d-block w-50 h-50" src="./images/ladies-sneakers-1.webp" alt="Third slide">
+              <div class="col-md-5 align-self-center">
+                <h5 class="font-weight-bold">
+                  Flat Base Casual
+                </h5>
+                <p class="mb-1 small">
+                  This Unisex casual flat base comes in black, white and red. Shoe sizes range from 5 - 10. Stock is available and all online card purchases are subject to a 20% discount.
+                </p>
+                <div class="d-flex">
+                  <p class="mr-2">
+                    By: <span class="text-muted">In-house Brand </span>
+                  </p>
+                  <p>Location: Johannesburg</p>
+                </div>
+                <button type="button"
+                  class="btn-custom btn-price text-white mt-1 ml-auto"
+                >
+                  R699.00
+                </button>
+                <button type="button" class="btn-custom btn-price text-white mt-1">
+                  <i class="fas fa-shopping-cart"></i> Add to cart
+                </button>
+              </div>
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -100,7 +194,155 @@
             <span class="sr-only">Next</span>
           </a>
         </div>
+      </div>
       </section>
+
+<!--Carousel Wrapper-->
+<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+  <!--Controls-->
+  <div class="controls-top">
+    <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+    <a class="btn-floating" href="#multi-item-example" data-slide="next"><i
+        class="fas fa-chevron-right"></i></a>
+  </div>
+  <!--/.Controls-->
+
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+    <li data-target="#multi-item-example" data-slide-to="1"></li>
+    
+  </ol>
+  <!--/.Indicators-->
+
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+
+    <!--First slide-->
+    <div class="carousel-item active">
+
+      <div class="col-md-3" style="float:left">
+       <div class="card mb-2">
+          <img class="img-fluid card-img-top w-100 h-75"
+            src="./images/ladies-sneakers-3.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Adidas</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+            <a class="btn btn-price">Button</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3" style="float:left">
+        <div class="card mb-2">
+          <img class="img-fluid card-img-top"
+            src="./images/ladies-sneakers-2.webp" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Adidas</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+            <a class="btn btn-price">Button</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3" style="float:left">
+        <div class="card mb-2">
+          <img class="img-fluid card-img-top"
+            src="./images/ladies-sneakers-6.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Adidas</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+            <a class="btn btn-price">Button</a>
+          </div>
+        </div>
+      </div>
+      
+       <div class="col-md-3" style="float:left">
+       <div class="card mb-2">
+          <img class="img-fluid card-img-top"
+            src="./images/ladies-sneakers-1.webp" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Puma</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+            <a class="btn btn-price">Button</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!--/.First slide-->
+
+    <!-- Second slide-->
+    <div class="carousel-item">
+
+      <div class="col-md-3" style="float:left">
+        <div class="card mb-2">
+          <img class="img-fluid card-img-top"
+            src="./images/men-sneakers-10.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Air Jordan</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+            <a class="btn btn-price">Button</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3" style="float:left">
+        <div class="card mb-2">
+          <img class="img-fluid card-img-top"
+            src="./images/men-sneakers-9.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Jordan</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+            <a class="btn btn-price">Button</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3" style="float:left">
+        <div class="card mb-2">
+          <img class="img-fluid card-img-top"
+            src="./images/men-sneakers-8.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Air Jordan</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+            <a class="btn btn-price">Button</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3" style="float:left">
+        <div class="card mb-2">
+          <img class="img-fluid card-img-top"
+            src="./images/men-sneakers-4.webp" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Jordan</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+            <a class="btn btn-price">Button</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!--/.Second slide -->
+
+   
+
+  </div>
+  <!--/.Slides-->
+
+</div>
+<!--/.Carousel Wrapper-->
+
       <article class="container article-1-container">
         <div class="article-1-text pt-5">
           <h1 class="article-header font-weight-bold">OUR MISSION</h1>

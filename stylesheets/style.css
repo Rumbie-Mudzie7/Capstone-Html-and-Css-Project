@@ -9,17 +9,30 @@ body {
 }
 
 .main-header {
-  background-color: #d35266;
+  background-color: #383838;
 }
 
 .casual {
   color: white;
 }
 
+.header-link-1 a {
+  color: #d35266;
+}
+
 .header-link {
-  border: 1px solid #888;
-  border-radius: 16px;
-  background-color: #888;
+  border: 1px solid #d35266;
+  background-color: #d35266;
+  color: #888;
+}
+
+.search-area {
+  background-color: #eb6478;
+  height: 15rem;
+}
+
+.hot-ads-title {
+  font-size: 2rem;
 }
 
 .carousel-text {
@@ -32,45 +45,12 @@ body {
   text-align: center;
 }
 
-.dropbtn {
-  background-color: #d35266;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
+.btn-custom {
+  background-color: #d35266; 
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: #888;
+.btn-price {
+  background-color: #d35266; 
 }
 
 .article-1-container {
