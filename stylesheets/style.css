@@ -35,6 +35,10 @@ body {
   font-size: 2rem;
 }
 
+.left-float {
+  float: left;
+}
+
 .carousel-text {
   color: rgb(51, 11, 11);
   position: absolute;
@@ -46,17 +50,19 @@ body {
 }
 
 .btn-custom {
-  background-color: #d35266; 
+  background-color: #d35266;
 }
 
 .btn-price {
-  background-color: #d35266; 
+  background-color: #d35266;
 }
 
-@font-face {
-  font-family: card-title;
-  src: url(helvetica_neue_bold_22498.ttf);
-  font-weight: bold;
+.footer-links {
+  background: linear-gradient(rgba(136, 136, 136, 0.5), #383838);
+}
+
+.social {
+  padding: 0 2rem 2rem 0;
 }
 
 .article-1-container {
