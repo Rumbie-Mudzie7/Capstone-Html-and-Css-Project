@@ -53,6 +53,12 @@ body {
   background-color: #d35266; 
 }
 
+@font-face {
+  font-family: card-title;
+  src: url(helvetica_neue_bold_22498.ttf);
+  font-weight: bold;
+}
+
 .article-1-container {
   display: grid;
   grid-template-columns: 50% 50%;
