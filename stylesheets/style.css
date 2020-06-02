@@ -16,14 +16,32 @@ body {
   color: white;
 }
 
-.header-link-1 a {
+.logo {
   color: #d35266;
+  font-size: 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .header-link {
   border: 1px solid #d35266;
   background-color: #d35266;
   color: #888;
+}
+
+.header-link-1 {
+  color: #d35266;
+}
+
+.header-link-2 {
+  color: #888;
+}
+
+.search-area-header {
+  font-size: 2.5rem;
+}
+
+.search-area-text {
+  font-size: 1.6rem;
 }
 
 .search-area {
