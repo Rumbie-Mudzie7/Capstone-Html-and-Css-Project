@@ -40,7 +40,7 @@ The Capstone project is mainly a combined effort of the Html and CSS, not exclud
 
 Contributions, issues and feature requests are welcome!
 ​
-Feel free to check the [issues page](https://github.com/Rumbie-Mudzie7/project-newsweek/issues).
+Feel free to check the [issues page](https://github.com/Rumbie-Mudzie7/Capstone-Html-and-Css-Project/issues/1).
 ​
 
 ## Show your support
