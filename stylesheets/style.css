@@ -6,7 +6,7 @@
 
 body {
   background-color: rgb(243, 241, 241);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .main-header {
@@ -25,7 +25,7 @@ body {
 
 .logo-2 {
   color: #d35266;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
@@ -54,6 +54,12 @@ body {
 .search-area {
   background-color: #eb6478;
   height: 15rem;
+}
+
+.branding {
+  position: relative;
+  top: 3px;
+  margin-left: 0.6rem;
 }
 
 .hot-ads-title {
