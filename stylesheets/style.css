@@ -9,6 +9,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+@font-face {
+  font-family: gotham_bold;
+  src: url(https://fontsgeek.com/fonts/Gotham-Bold);
+}
+
 .main-header {
   background-color: #383838;
 }
