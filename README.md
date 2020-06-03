@@ -19,7 +19,7 @@ The Capstone project is mainly a combined effort of the Html and CSS, not exclud
 ## Live Demo
 
 ​
-[Live Demo Link](https://rawcdn.githack.com/Rumbie-Mudzie7/project-newsweek/201a847a12444b08acdb99bbaf7a378106f7f2b8/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Rumbie-Mudzie7/Capstone-Html-and-Css-Project/502b5d4a03b379c65f7779934d8a38b1bd8bed8b/index.html)
 ​
 
 ## Getting Started
