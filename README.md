@@ -3,10 +3,9 @@ The Capstone project is mainly a combined effort of the Html and CSS, not exclud
 
 ## Screenshot
 
-![Page screenshot](images/newsweek-desktop-view-screenshot.png)
-![Page screenshot](images/tablet-view-screenshot.png)
-![Page screenshot](images/mobile-view-screenshot-1.png)
-![Page screenshot](images/mobile-view-screenshot-2.png)
+![Page screenshot](images/home-page-screenshot.png)
+![Page screenshot](images/search-page-screenshot.png)
+![Page screenshot](images/purchase-screenshot.png)
 
 
 ## Built With
@@ -14,6 +13,7 @@ The Capstone project is mainly a combined effort of the Html and CSS, not exclud
 - HTML
 - CSS
 - Fontawesome
+- Bootstrap
   ​
 
 ## Live Demo
@@ -53,6 +53,8 @@ Please, give a ⭐️ if you like this project!
 - Fontawesome
 - Our Stand up teams
 - Microverse TSE
+- ZATTIX Mohammed Awad
+
 
   ​
 ## License
