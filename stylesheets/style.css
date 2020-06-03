@@ -6,6 +6,7 @@
 
 body {
   background-color: rgb(243, 241, 241);
+  font-family: 'Roboto', sans-serif;
 }
 
 .main-header {
@@ -19,7 +20,13 @@ body {
 .logo {
   color: #d35266;
   font-size: 2rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.logo-2 {
+  color: #d35266;
+  font-size: 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .header-link {
@@ -73,14 +80,28 @@ body {
 
 .btn-price {
   background-color: #d35266;
+  color: #383838;
 }
 
 .footer-links {
   background: linear-gradient(rgba(136, 136, 136, 0.5), #383838);
 }
 
+.footer-wrap-1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-wrap-2 {
+  width: 200px;
+}
+
+.footer-lists a {
+  color: #d35266;
+}
+
 .social {
-  padding: 0 2rem 2rem 0;
+  font-size: 1.2rem;
 }
 
 .article-1-container {
