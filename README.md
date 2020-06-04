@@ -1,5 +1,10 @@
 # Capstone-Html-and-Css-Project
-The Capstone project is mainly a combined effort of the Html and CSS, not excluding Bootstrap, concepts that have been acquired through the learning process.
+The Capstone project is mainly a combined effort of the Html and CSS, not excluding Bootstrap, concepts that have been acquired through the Microverse main HTML and CSS learning curriculum.
+UI and UX design skills have been demonstrated in the visual appearance of the site through usage of the Flexbox property and basic layout of each page in the project. The online-shop for electronics project resembles a real-world model of a physical casual shoes retail outlet. This project consists of three pages: 
+
+- Home page(main page)
+- Purchase Lists page (about and sales projection page)
+- Search Results page (price and item search area)
 
 ## Screenshot
 
@@ -50,6 +55,7 @@ Please, give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- microverse.org
 - Fontawesome
 - Our Stand up teams
 - Microverse TSE

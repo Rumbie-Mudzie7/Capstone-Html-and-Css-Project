@@ -40,10 +40,6 @@ body {
   color: #888;
 }
 
-.header-link-1 {
-  color: #d35266;
-}
-
 .header-link-2 {
   color: #888;
 }
@@ -85,11 +81,8 @@ body {
   text-align: center;
 }
 
+.btn-price,
 .btn-custom {
-  background-color: #d35266;
-}
-
-.btn-price {
   background-color: #d35266;
   color: #383838;
 }
@@ -107,7 +100,8 @@ body {
   width: 200px;
 }
 
-.footer-lists a {
+.footer-lists a,
+.header-link-1 {
   color: #d35266;
 }
 
