@@ -1,0 +1,180 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(243, 241, 241);
+  font-family: "Roboto", sans-serif;
+}
+
+@font-face {
+  font-family: gotham_bold;
+  src: url(https://fontsgeek.com/fonts/Gotham-Bold);
+}
+
+.main-header {
+  background-color: #383838;
+}
+
+.casual {
+  color: white;
+}
+
+.logo,
+.logo-2,
+.footer-lists a,
+.header-link-1 {
+  color: #d35266;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.logo-2 {
+  font-size: 1.2rem;
+}
+
+.header-link {
+  border: 1px solid #d35266;
+  background-color: #d35266;
+  color: #888;
+}
+
+.header-link-2 {
+  color: #888;
+}
+
+.search-area-header {
+  font-size: 2.5rem;
+}
+
+.search-area-text {
+  font-size: 1.6rem;
+}
+
+.search-area {
+  background-color: #eb6478;
+  height: 15rem;
+}
+
+.branding {
+  position: relative;
+  top: 3px;
+  margin-left: 0.6rem;
+}
+
+.hot-ads-title {
+  font-size: 2rem;
+}
+
+.left-float {
+  float: left;
+}
+
+.carousel-text {
+  color: rgb(51, 11, 11);
+  position: absolute;
+  z-index: 12;
+  top: 70%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.btn-price,
+.btn-custom {
+  background-color: #d35266;
+  color: #383838;
+}
+
+.footer-links {
+  background: linear-gradient(rgba(136, 136, 136, 0.5), #383838);
+}
+
+.footer-wrap-1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-wrap-2 {
+  width: 200px;
+}
+
+.footer-lists a,
+.header-link-1 {
+  font-family: "Roboto", sans-serif;
+}
+
+.social {
+  font-size: 1.2rem;
+}
+
+.article-1-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 20px;
+  grid-template-rows: 100%;
+}
+
+.article-header {
+  font-size: 3rem;
+}
+
+.article-2-text {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 25% 25%;
+  grid-template-rows: 50%;
+  text-align: center;
+}
+
+.prog-bar {
+  padding-top: 6rem;
+  width: 300px;
+}
+
+.bar {
+  width: 100%;
+  background-color: #eee;
+  padding: 2px;
+  border-radius: 2px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.bar-animation-1,
+.bar-animation-2,
+.bar-animation-3 {
+  height: 15px;
+  display: block;
+  background-color: #d35266;
+  border-radius: 2px;
+  -webkit-transition: width 0.8s ease;
+  transition: width 0.8s ease;
+  animation: animate 1 4s;
+}
+
+.bar-animation-1 {
+  width: 80%;
+}
+
+.bar-animation-2 {
+  width: 60%;
+}
+
+.bar-animation-3 {
+  width: 40%;
+}
+
+@keyframes animate {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}

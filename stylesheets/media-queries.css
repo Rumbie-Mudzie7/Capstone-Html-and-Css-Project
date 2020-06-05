@@ -1,0 +1,25 @@
+@media screen and (max-width: 767px) {
+  .search-area {
+    font-size: 1.5rem;
+    height: 25rem;
+  }
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-img {
+  width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    font-size: 1.5rem;
+  }
+
+  footer {
+    display: flex;
+  }
+}
